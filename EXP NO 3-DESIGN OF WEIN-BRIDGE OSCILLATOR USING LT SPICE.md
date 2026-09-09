@@ -126,31 +126,23 @@ $$
 
 ### Practical Frequency
 
-The practical frequency is obtained from the LTspice transient waveform.
-
-The frequency is calculated using:
+From the LTspice transient waveform, the measured time period is approximately:
 
 $$
-f_{practical} = \frac{1}{T}
+T \approx 0.63\,ms
 $$
 
-where:
-
-- $T$ = measured time period of one complete cycle.
-
-From the LTspice waveform:
-
-$$
-T = \text{[measured time period]}
-$$
-
-Therefore:
+Hence,
 
 $$
 f_{practical} = \frac{1}{T}
 $$
 
 $$
-\boxed{f_{practical} = \text{[calculated frequency]} \, Hz}
+f_{practical} = \frac{1}{0.63\times10^{-3}}
+$$
+
+$$
+\boxed{f_{practical} \approx 1587.3\,Hz \approx 1.587\,kHz}
 $$
 ## result
