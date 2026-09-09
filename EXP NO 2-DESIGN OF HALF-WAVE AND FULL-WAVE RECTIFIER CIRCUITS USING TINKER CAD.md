@@ -8,9 +8,19 @@
 
 
 ## tinker cad circuit diagram
+FULL WAVE RECTIFIER
+<img width="1916" height="905" alt="Screenshot 2026-09-09 084409" src="https://github.com/user-attachments/assets/cbd94148-01d8-433a-958f-59f79eab1a5f" />
 
-## ripple factor calculation
+HALF WAVE RECTIFIER
+<img width="1919" height="947" alt="Screenshot 2026-09-09 084815" src="https://github.com/user-attachments/assets/c37ab52b-d8e2-4762-bace-2b128190b290" />
 
 ## output graph
+OUTPUT WAVEFORM FOR FULL WAVE RECTIFIER
+<img width="634" height="630" alt="Screenshot 2026-09-09 085208" src="https://github.com/user-attachments/assets/d6723fa2-652c-4d68-a437-6388072886e0" />
+
+
+OUTPUT WAVEFORM FOR HALF WAVE RECTIFIER
+<img width="1917" height="929" alt="Screenshot 2026-09-09 085002" src="https://github.com/user-attachments/assets/33de0251-c7e1-47bf-ad06-f65e38474401" />
+
 
 ## result
