@@ -21,6 +21,9 @@
 
 ## LT spice circuit diagram
 
+<img width="4" height="6" alt="image" src="https://github.com/user-attachments/assets/4a125c35-a068-47b7-a5e4-740de14308b5" />
+
+
 
 ## LT spice output graph
 
