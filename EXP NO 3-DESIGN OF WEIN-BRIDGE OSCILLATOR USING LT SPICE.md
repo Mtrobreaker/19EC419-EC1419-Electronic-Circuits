@@ -146,3 +146,11 @@ $$
 \boxed{f_{practical} \approx 1587.3\,Hz \approx 1.587\,kHz}
 $$
 ## result
+
+RESULT:
+
+Thus, the Wien bridge oscillator was designed and simulated using LTspice and constructed for the given cut-off frequency.
+
+Theoretical frequency = 1591.5 Hz
+
+Practical frequency = 1587.3 Hz
