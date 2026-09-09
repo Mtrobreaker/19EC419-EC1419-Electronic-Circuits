@@ -21,3 +21,9 @@
 
 
 ## result
+
+The Common Emitter Amplifier was constructed and the following results were observed.
+
+1. **Gain of the amplifier** — **31.3 dB**
+2. **Bandwidth of the amplifier** — **≈ 1.2 MHz**
+3. **Gain-Bandwidth Product** — **≈ 44 MHz**
