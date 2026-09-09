@@ -31,142 +31,126 @@
 <img width="1863" height="844" alt="image" src="https://github.com/user-attachments/assets/aa3a9585-4a42-44f0-ab86-db8983c32496" />
 
 ## calculation
-
 ## Frequency Calculation
 
-### Theoretical Frequency
+For a Wien bridge oscillator, when the two resistors and two capacitors in the frequency-selective network are equal:
 
-For a Wien bridge oscillator, the oscillation frequency is given by:
+- R9 = R10 = R
+- C1 = C2 = C
 
-\[
-f = \frac{1}{2\pi RC}
-\]
+The theoretical oscillation frequency is:
 
-Given:
+$$
+f_0 = \frac{1}{2\pi RC}
+$$
 
-\[
-R = 10\,k\Omega = 10,000\,\Omega
-\]
+### Given Values
 
-\[
+$$
+R = 10\,k\Omega
+$$
+
+$$
 C = 0.01\,\mu F
-\]
+$$
+
+Convert the values into SI units:
+
+$$
+R = 10\,k\Omega = 10,000\,\Omega
+$$
+
+$$
+C = 0.01\,\mu F
+$$
 
 Since:
 
-\[
+$$
 1\,\mu F = 10^{-6}\,F
-\]
+$$
 
 Therefore:
 
-\[
+$$
 C = 0.01 \times 10^{-6}
-\]
+$$
 
-\[
+$$
 C = 10^{-8}\,F
-\]
+$$
+
+### Theoretical Frequency
 
 Substituting the values:
 
-\[
-f = \frac{1}{2\pi(10,000)(10^{-8})}
-\]
+$$
+f_0 = \frac{1}{2\pi(10,000)(10^{-8})}
+$$
 
-\[
-f = \frac{1}{6.283 \times 10^{-4}}
-\]
+First calculate:
 
-\[
-f = 1591.55\,Hz
-\]
+$$
+RC = (10,000)(10^{-8})
+$$
+
+$$
+RC = 10^{-4}
+$$
 
 Therefore:
 
-\[
-\boxed{f_{theoretical} \approx 1591.5\,Hz}
-\]
+$$
+f_0 = \frac{1}{2\pi(10^{-4})}
+$$
 
-or
+$$
+f_0 = \frac{1}{6.283 \times 10^{-4}}
+$$
 
-\[
-\boxed{f_{theoretical} \approx 1.59\,kHz}
-\]
+$$
+f_0 \approx 1591.5\,Hz
+$$
 
----
+Therefore, the theoretical oscillation frequency is:
+
+$$
+\boxed{f_0 \approx 1591.5\,Hz}
+$$
+
+or approximately:
+
+$$
+\boxed{f_0 \approx 1.59\,kHz}
+$$
 
 ### Practical Frequency
 
-The practical frequency is obtained from the transient waveform in LTspice.
+The practical frequency is obtained from the LTspice transient waveform.
 
-The time period is calculated using two consecutive identical points on the waveform:
+The frequency is calculated using:
 
-\[
-T = t_2 - t_1
-\]
-
-The practical frequency is:
-
-\[
+$$
 f_{practical} = \frac{1}{T}
-\]
+$$
 
-For example, if two consecutive peaks are measured as:
+where:
 
-\[
-t_1 = 50.00\,ms
-\]
+- $T$ = measured time period of one complete cycle.
 
-\[
-t_2 = 50.63\,ms
-\]
+From the LTspice waveform:
 
-Then:
-
-\[
-T = 50.63 - 50.00
-\]
-
-\[
-T = 0.63\,ms
-\]
-
-Converting milliseconds to seconds:
-
-\[
-T = 0.63 \times 10^{-3}\,s
-\]
+$$
+T = \text{[measured time period]}
+$$
 
 Therefore:
 
-\[
-f_{practical} =
-\frac{1}{0.63 \times 10^{-3}}
-\]
+$$
+f_{practical} = \frac{1}{T}
+$$
 
-\[
-f_{practical} \approx 1587.3\,Hz
-\]
-
-Thus:
-
-\[
-\boxed{f_{practical} \approx 1.587\,kHz}
-\]
-
----
-
-### Comparison
-
-| Parameter | Value |
-|---|---:|
-| Resistance, R | 10 kΩ |
-| Capacitance, C | 0.01 μF |
-| Theoretical Frequency | 1591.5 Hz |
-| Practical Frequency | 1587.3 Hz |
-| Difference | ≈ 4.2 Hz |
-
-The practical frequency is obtained from the LTspice transient waveform and should be close to the theoretical frequency.
-
+$$
+\boxed{f_{practical} = \text{[calculated frequency]} \, Hz}
+$$
 ## result
