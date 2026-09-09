@@ -30,8 +30,143 @@
 
 <img width="1863" height="844" alt="image" src="https://github.com/user-attachments/assets/aa3a9585-4a42-44f0-ab86-db8983c32496" />
 
-## Tabulation
-
 ## calculation
+
+## Frequency Calculation
+
+### Theoretical Frequency
+
+For a Wien bridge oscillator, the oscillation frequency is given by:
+
+\[
+f = \frac{1}{2\pi RC}
+\]
+
+Given:
+
+\[
+R = 10\,k\Omega = 10,000\,\Omega
+\]
+
+\[
+C = 0.01\,\mu F
+\]
+
+Since:
+
+\[
+1\,\mu F = 10^{-6}\,F
+\]
+
+Therefore:
+
+\[
+C = 0.01 \times 10^{-6}
+\]
+
+\[
+C = 10^{-8}\,F
+\]
+
+Substituting the values:
+
+\[
+f = \frac{1}{2\pi(10,000)(10^{-8})}
+\]
+
+\[
+f = \frac{1}{6.283 \times 10^{-4}}
+\]
+
+\[
+f = 1591.55\,Hz
+\]
+
+Therefore:
+
+\[
+\boxed{f_{theoretical} \approx 1591.5\,Hz}
+\]
+
+or
+
+\[
+\boxed{f_{theoretical} \approx 1.59\,kHz}
+\]
+
+---
+
+### Practical Frequency
+
+The practical frequency is obtained from the transient waveform in LTspice.
+
+The time period is calculated using two consecutive identical points on the waveform:
+
+\[
+T = t_2 - t_1
+\]
+
+The practical frequency is:
+
+\[
+f_{practical} = \frac{1}{T}
+\]
+
+For example, if two consecutive peaks are measured as:
+
+\[
+t_1 = 50.00\,ms
+\]
+
+\[
+t_2 = 50.63\,ms
+\]
+
+Then:
+
+\[
+T = 50.63 - 50.00
+\]
+
+\[
+T = 0.63\,ms
+\]
+
+Converting milliseconds to seconds:
+
+\[
+T = 0.63 \times 10^{-3}\,s
+\]
+
+Therefore:
+
+\[
+f_{practical} =
+\frac{1}{0.63 \times 10^{-3}}
+\]
+
+\[
+f_{practical} \approx 1587.3\,Hz
+\]
+
+Thus:
+
+\[
+\boxed{f_{practical} \approx 1.587\,kHz}
+\]
+
+---
+
+### Comparison
+
+| Parameter | Value |
+|---|---:|
+| Resistance, R | 10 kΩ |
+| Capacitance, C | 0.01 μF |
+| Theoretical Frequency | 1591.5 Hz |
+| Practical Frequency | 1587.3 Hz |
+| Difference | ≈ 4.2 Hz |
+
+The practical frequency is obtained from the LTspice transient waveform and should be close to the theoretical frequency.
 
 ## result
