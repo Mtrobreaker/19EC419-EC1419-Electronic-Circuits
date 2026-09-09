@@ -29,3 +29,6 @@ OUTPUT WAVEFORM FOR HALF WAVE RECTIFIER
 
 
 ## result
+
+Thus, the half-wave rectifier and full-wave rectifier, with and without filters, are simulated using Tinkercad, and the waveforms are plotted.
+
