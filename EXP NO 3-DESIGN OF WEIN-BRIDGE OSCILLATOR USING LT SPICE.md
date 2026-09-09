@@ -24,6 +24,8 @@
 
 ## LT spice output graph
 
+<img width="1863" height="844" alt="image" src="https://github.com/user-attachments/assets/aa3a9585-4a42-44f0-ab86-db8983c32496" />
+
 ## Tabulation
 
 ## calculation
