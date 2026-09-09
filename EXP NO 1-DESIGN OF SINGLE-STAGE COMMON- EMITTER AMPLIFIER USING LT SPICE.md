@@ -12,9 +12,12 @@
 
 
 ## circuit diagram
+<img width="1918" height="1032" alt="Screenshot 2026-09-09 082206" src="https://github.com/user-attachments/assets/75ba1293-aaf5-4fa6-b09f-9169a9be0580" />
+
+
 
 ## graph
+<img width="1279" height="1002" alt="Screenshot 2026-09-09 082008" src="https://github.com/user-attachments/assets/5e0f9cee-443d-4072-acde-498b2965e21b" />
 
-## calculation
 
 ## result
