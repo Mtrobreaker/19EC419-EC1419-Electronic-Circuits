@@ -24,7 +24,8 @@ OUTPUT WAVEFORM FOR FULL WAVE RECTIFIER
 
 OUTPUT WAVEFORM FOR HALF WAVE RECTIFIER
 
-<img width="1917" height="929" alt="Screenshot 2026-09-09 085002" src="https://github.com/user-attachments/assets/33de0251-c7e1-47bf-ad06-f65e38474401" />
+<img width="751" height="741" alt="Screenshot 2026-09-09 085348" src="https://github.com/user-attachments/assets/aab7ee1d-779c-444a-834b-d238151570c5" />
+
 
 
 ## result
