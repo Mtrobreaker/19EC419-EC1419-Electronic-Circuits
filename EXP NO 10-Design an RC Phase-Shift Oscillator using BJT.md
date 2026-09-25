@@ -9,9 +9,19 @@
 
 
 ## tabulation
+<img width="685" height="802" alt="image" src="https://github.com/user-attachments/assets/7dfd79e6-f136-4902-9a11-53bce968d42f" />
+
 
 ## output graph sheet
+<img width="756" height="630" alt="image" src="https://github.com/user-attachments/assets/4cfec47c-53c2-4e8a-837c-d098f025102f" />
+
 
 ## calculation
+<img width="822" height="677" alt="image" src="https://github.com/user-attachments/assets/1ffab583-e028-424c-b3a3-e70538c05148" />
+
 
 ## result
+
+Thus, the three-section RC phase-shift oscillator using BC107 was successfully constructed and the sinusoidal oscillations were obtained.
+The theoretical frequency of oscillation is: 5.8 K Hz
+The practical frequency of oscillation is: 50.9 K Hz
