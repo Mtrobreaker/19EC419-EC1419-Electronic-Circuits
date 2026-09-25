@@ -23,6 +23,7 @@
 ## result
 
 Thus, the three-section RC phase-shift oscillator using BC107 was successfully constructed and the sinusoidal oscillations were obtained.
+
 The theoretical frequency of oscillation is: 5.8 K Hz
 
 The practical frequency of oscillation is: 5.9 K Hz
